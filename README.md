@@ -3,6 +3,8 @@ Concentration -Genshin Impact Edition-
 
 Inspired by the hit action rpg, Genshin Impact, this special edition version of Concentration features 8 popular characters that are currently available in the game. The game is designed to be simple, minimalistic, and fun. Hope you enjoy~!!
 
+Play Now --> https://bridgeot.github.io/Browser-based-Game/
+
 ### PseudoCode
 - The game will consist of a single player
 - Player will see a 4x4 board (16 circles) displayed automatically
