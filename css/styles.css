@@ -106,11 +106,11 @@ p {
     visibility: visible;
 }
 
-/* id selectors */
-
-#no-message {
+.no-message {
     visibility: hidden;
 }
+
+/* id selectors */
 
 #copyright {
     position: relative;
