@@ -32,15 +32,15 @@
     }
     circle2 = this;
 
-    let cir1pic = circle1.querySelector('.back img').src;
-    let cir2pic = circle2.querySelector('.back img').src;
-    circleMatch(cir1pic, cir2pic);
+    let pic1 = circle1.querySelector('.back img').src;
+    let pic2 = circle2.querySelector('.back img').src;
+    circleMatch(pic1, pic2);
 
     }
   }
 
-  function circleMatch(cir1pic, cir2pic) {
-    if(cir1pic === cir2pic) {
+  function circleMatch(pic1, pic2) {
+    if(pic1 === pic2) {
       matchFound++;
 
       if(matchFound === 8) {

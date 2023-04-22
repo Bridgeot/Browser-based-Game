@@ -13,7 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: #99b3c1;
+    background-color: #f0eed9;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-    color: #3e5b74;
+    color: #bda97b;
     font-family: 'secondary', helvetica;
     font-size: 3.5vmin;
 }
@@ -33,7 +33,7 @@ h2 {
 h3 {
     margin-top: -2.5vmin;
     margin-bottom: 5vmin;
-    color: #3e5b74;
+    color: #bda97b;
     font-family: 'primary', helvetica;
     font-size: 2vmin;
 }
@@ -107,7 +107,6 @@ p {
 }
 
 #copyright {
-    position: relative;
     margin-top: 4vmin;
     margin-left: auto; 
     margin-right: 1vmin;
