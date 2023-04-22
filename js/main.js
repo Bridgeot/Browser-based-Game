@@ -25,15 +25,15 @@
     disable = false;
     seconds = 30;
     circle1 = circle2 = '';
-    
+
+    arr.sort(() => Math.random() > 0.5 ? 1 : -1);
+
     circles.forEach((circle, i) => {
       circle.classList.remove('flip');
       let imgs = circle.querySelector('.back img');
       imgs.src = `images/img-${arr[i]}.webp`;
       circle.addEventListener('click', circleFlip);
     });
-
-    arr.sort(() => Math.random() > 0.5 ? 1 : -1);
   }
 
   function startTimer() {
