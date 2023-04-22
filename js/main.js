@@ -1,3 +1,7 @@
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 
+  1, 2, 3, 4, 5, 6, 7, 8];
+  
+
   let circle1;
   let circle2;
   let matchFound = 0;
@@ -17,14 +21,19 @@
 
 
   function gameRestart() {
-    circles.forEach(circle => {
-      circle.classList.remove('flip');
-    });
-
-    circle1 = circle2 = '';
     matchFound = 0;
     disable = false;
-    seconds = 29;
+    seconds = 30;
+    circle1 = circle2 = '';
+    
+    circles.forEach((circle, i) => {
+      circle.classList.remove('flip');
+      let imgs = circle.querySelector('.back img');
+      imgs.src = `images/img-${arr[i]}.webp`;
+      circle.addEventListener('click', circleFlip);
+    });
+
+    arr.sort(() => Math.random() > 0.5 ? 1 : -1);
   }
 
   function startTimer() {
