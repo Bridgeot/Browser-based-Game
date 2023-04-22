@@ -55,7 +55,7 @@ p {
 .board > div {
     border-width: 0.2vmin;
     border-style: solid;
-    border-color: #567a8f;
+    border-color: #bda97b;
     border-radius: 50%;
 }
 
@@ -106,8 +106,18 @@ p {
     visibility: hidden;
 }
 
+.time {
+    margin-top: -3.5vmin;
+    margin-bottom: 1.5vmin;
+    margin-left: 48.5vmin; 
+    background-color: #eadcbc;
+    border-style: none;
+    color: #333333;
+    width: 7vmin;
+}
+
 #copyright {
-    margin-top: 4vmin;
+    margin-top: 3.5vmin;
     margin-left: auto; 
     margin-right: 1vmin;
     color: #333333;
