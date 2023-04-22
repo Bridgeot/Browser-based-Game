@@ -40,25 +40,25 @@
     counter = setInterval(timer, 1000);
 
     function timer() {
-        if(seconds < 60 && seconds >= 10) {
-            times.innerHTML = '00' + `:${seconds}`;
-        }
+      if(seconds < 60 && seconds >= 10) {
+        times.innerHTML = '00' + `:${seconds}`;
+      }
 
-        if(seconds <= 9) {
-            times.innerHTML = '00' + `:${'0' + seconds}`;
-        }
+      if(seconds <= 9) {
+        times.innerHTML = '00' + `:${'0' + seconds}`;
+      }
 
-        if(seconds > 0) {
-            seconds--;
-        } else {
-            messages.style.visibility = 'visible';
-            messages.innerText = "YOU LOSE...";
+      if(seconds > 0) {
+        seconds--;
+      } else {
+        messages.style.visibility = 'visible';
+        messages.innerText = "YOU LOSE...";
 
-            return setTimeout(() => {
-                gameRestart();
-                messages.style.visibility = 'hidden';
-            }, 1600);
-        }
+        return setTimeout(() => {
+          gameRestart();
+          messages.style.visibility = 'hidden';
+        }, 1600);
+      }
     }
   }
 
@@ -82,22 +82,18 @@
       matchFound++;
 
     if(matchFound === 8 && seconds > 0) {
-        messages.style.visibility = 'visible';
-        messages.innerText = "YOU WIN!!!";
+      messages.style.visibility = 'visible';
+      messages.innerText = "YOU WIN!!!";
         
-        return setTimeout(() => {
-            gameRestart();
-            messages.style.visibility = 'hidden';
-        }, 1600);
+      return setTimeout(() => {
+        gameRestart();
+        messages.style.visibility = 'hidden';
+      }, 1600);
     }
-
+    
     circle1.classList.add('flip');
     circle2.classList.add('flip');
     circle1 = circle2 = '';
-
-    return setTimeout(() => {
-    messages.style.visibility = 'hidden';
-    }, 600);
   }
     
     messages.style.visibility = 'visible';
