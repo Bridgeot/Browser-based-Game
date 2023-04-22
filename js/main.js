@@ -1,9 +1,9 @@
   let circle1;
   let circle2;
   let matchFound = 0;
-  let deactivate = false;
+  let disable = false;
   let counter;
-  let seconds = 30;
+  let seconds = 29;
 
 
   const circles = document.querySelectorAll('.circle');
@@ -16,15 +16,15 @@
   });
 
 
-  function playAgain() {
+  function gameRestart() {
     circles.forEach(circle => {
       circle.classList.remove('flip');
     });
 
     circle1 = circle2 = '';
     matchFound = 0;
-    deactivate = false;
-    seconds = 30;
+    disable = false;
+    seconds = 29;
   }
 
   function startTimer() {
@@ -46,7 +46,7 @@
             messages.innerText = "YOU LOSE...";
 
             return setTimeout(() => {
-                playAgain();
+                gameRestart();
                 messages.style.visibility = 'hidden';
             }, 1600);
         }
@@ -77,7 +77,7 @@
         messages.innerText = "YOU WIN!!!";
         
         return setTimeout(() => {
-            playAgain();
+            gameRestart();
             messages.style.visibility = 'hidden';
         }, 1600);
     }
@@ -103,5 +103,5 @@
   }
 
 
-  playAgain();
+  gameRestart();
   startTimer();
