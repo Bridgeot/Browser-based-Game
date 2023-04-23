@@ -7,7 +7,7 @@
   let matchFound = 0;
   let disable = false;
   let counter;
-  let seconds = 29;
+  let seconds = 60;
 
 
   const circles = document.querySelectorAll('.circle');
@@ -23,7 +23,7 @@
   function gameRestart() {
     matchFound = 0;
     disable = false;
-    seconds = 30;
+    seconds = 60;
     circle1 = circle2 = '';
 
     arr.sort(() => Math.random() > 0.5 ? 1 : -1);
@@ -40,6 +40,8 @@
     counter = setInterval(timer, 1000);
 
     function timer() {
+      times.innerHTML = '01:00';
+
       if(seconds < 60 && seconds >= 10) {
         times.innerHTML = '00' + `:${seconds}`;
       }
@@ -57,7 +59,7 @@
         return setTimeout(() => {
           gameRestart();
           messages.style.visibility = 'hidden';
-        }, 1600);
+        }, 1800);
       }
     }
   }
@@ -88,12 +90,16 @@
       return setTimeout(() => {
         gameRestart();
         messages.style.visibility = 'hidden';
-      }, 1600);
+      }, 1800);
     }
     
     circle1.classList.add('flip');
     circle2.classList.add('flip');
     circle1 = circle2 = '';
+
+    return setTimeout(() => {
+      messages.style.visibility = 'hidden';
+    });
   }
     
     messages.style.visibility = 'visible';
