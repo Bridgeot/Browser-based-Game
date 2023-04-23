@@ -40,5 +40,5 @@ Game in Progress:
 - Increase gameboard size and add additional images
 
 ## References
-- All images used in the making of this game were derived from the non-official <a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki">Genshin Impact Wiki</a> page
-- Both custom fonts being utilized in the game are inspired by Genshin Impact and recreated by fans for reuse. Credits go to <a href="https://twitter.com/NekoJinnyArt">@NekoJinnyArt</a> on Twitter and <a href="https://www.dafontfree.io/genshin-impact-font/">DaFont</a>
+- All images used in the making of this game were derived from the non-official <a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki">Genshin Impact Wiki</a> page.
+- Both custom fonts being utilized in the game are inspired by Genshin Impact and recreated by fans for reuse. Credits go to <a href="https://twitter.com/NekoJinnyArt">@NekoJinnyArt</a> on Twitter and <a href="https://www.dafontfree.io/genshin-impact-font/">DaFont</a>.
