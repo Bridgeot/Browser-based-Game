@@ -37,6 +37,7 @@ Game in Progress:
 
 ## Next Steps
 - Add a pause/unpause game feature
+- Add mobile responsiveness
 - Increase gameboard size and add additional images
 
 ## References
