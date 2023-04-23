@@ -2,17 +2,17 @@
 ## Concentration -Genshin Impact Edition-
 Inspired by the hit action rpg, <a href="https://genshin.hoyoverse.com/en/">Genshin Impact</a>, this special edition version of Concentration features 8 characters that are currently available in the game. The game is designed to be simple, minimalistic, responsive, and fun.
 
-### Technologies Used
+## Technologies Used
 HTML5, CSS3, and JavaScript
 
-### Screenshots
+## Screenshots
 Initial Screen:
-<img src="images/screenshot1" alt="in-game screenshot">
+<img src="images/screenshot1.png" alt="in-game screenshot">
 
 Game in Progress:
-<img src="images/screenshot2" alt="in-game screenshot">
+<img src="images/screenshot2.png" alt="in-game screenshot">
 
-### How to Play
+## How to Play
 - The game consists of a single player
 - Player will see a 4x4 board (16 circles) displayed automatically
 - All circles will have a facedown and faceup state
@@ -35,10 +35,10 @@ Game in Progress:
 
 <a href="https://bridgeot.github.io/Browser-based-Game/">CLICK HERE TO PLAY NOW!</a>
 
-### Next Steps
+## Next Steps
 - Add a pause/unpause game feature
 - Increase gameboard size and add additional images
 
-### References
+## References
 - All images used in the making of this game were derived from the non-official <a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki">Genshin Impact Wiki</a> page
 - Both custom fonts being utilized in the game are inspired by Genshin Impact and recreated by fans for reuse. Credits go to <a href="https://twitter.com/NekoJinnyArt">@NekoJinnyArt</a> on Twitter and <a href="https://www.dafontfree.io/genshin-impact-font/">DaFont</a>
