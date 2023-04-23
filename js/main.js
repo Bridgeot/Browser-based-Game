@@ -7,7 +7,7 @@
   let matchFound = 0;
   let disable = false;
   let counter;
-  let seconds = 60;
+  let seconds = 59;
 
 
   const circles = document.querySelectorAll('.circle');
@@ -67,7 +67,7 @@
   function circleFlip() {
     if(this !== circle1) {
       this.classList.add('flip');
-
+      
     if(!circle1) {
       return circle1 = this;
     }
@@ -81,6 +81,8 @@
 
   function circleMatch(pic1, pic2) {
     if(pic1 === pic2) {
+      circle1.removeEventListener('click', circleFlip);
+      circle2.removeEventListener('click', circleFlip);
       matchFound++;
 
     if(matchFound === 8 && seconds > 0) {
@@ -90,7 +92,7 @@
       return setTimeout(() => {
         gameRestart();
         messages.style.visibility = 'hidden';
-      }, 1800);
+      }, 2000);
     }
     
     circle1.classList.add('flip');
