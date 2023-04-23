@@ -107,7 +107,7 @@ p {
     visibility: hidden;
 }
 
-.time {
+#time {
     margin-top: -3.5vmin;
     margin-bottom: 1.5vmin;
     margin-left: 48.5vmin; 

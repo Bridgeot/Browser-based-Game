@@ -7,12 +7,12 @@
   let matchFound = 0;
   let disable = false;
   let counter;
-  let seconds = 59;
+  let seconds = 60;
 
 
   const circles = document.querySelectorAll('.circle');
   const messages = document.querySelector('.message');
-  const times = document.querySelector('.time');
+  const times = document.getElementById('time');
   
 
   circles.forEach(circle => {
@@ -59,7 +59,7 @@
         return setTimeout(() => {
           gameRestart();
           messages.style.visibility = 'hidden';
-        }, 1800);
+        }, 1200);
       }
     }
   }
@@ -92,7 +92,7 @@
       return setTimeout(() => {
         gameRestart();
         messages.style.visibility = 'hidden';
-      }, 2000);
+      }, 1200);
     }
     
     circle1.classList.add('flip');
@@ -112,7 +112,7 @@
       circle2.classList.remove('flip');
       circle1 = circle2 = '';
       messages.style.visibility = 'hidden';
-    }, 800);
+    }, 700);
   }
 
 

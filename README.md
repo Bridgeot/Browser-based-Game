@@ -1,6 +1,6 @@
 # Browser-based-Game
 ## Concentration -Genshin Impact Edition-
-Inspired by the hit action rpg, <a href="https://genshin.hoyoverse.com/en/">Genshin Impact</a>, this special edition version of Concentration features 8 characters that are currently available in the game. The game is designed to be simple, minimalistic, responsive, and fun.
+Inspired by the hit action rpg, <a href="https://genshin.hoyoverse.com/en/" target="_blank">Genshin Impact</a>, this special edition version of Concentration features 8 characters that are currently available in the game. The game is designed to be simple, minimalistic, responsive, and fun.
 
 ## Technologies Used
 HTML5, CSS3, and JavaScript
@@ -33,12 +33,12 @@ Game in Progress:
     - A "YOU LOSE..." message populates on the screen
 - Whether the player wins or loses, the game will automatically shuffle the circles and restart from the beginning after a short period of time
 
-<a href="https://bridgeot.github.io/Browser-based-Game/">CLICK HERE TO PLAY NOW!</a>
+<a href="https://bridgeot.github.io/Browser-based-Game/" target="_blank">CLICK HERE TO PLAY NOW!</a>
 
 ## Next Steps
 - Add a pause/unpause game feature
 - Increase gameboard size and add additional images
 
 ## References
-- All images used in the making of this game were derived from the non-official <a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki">Genshin Impact Wiki</a> page.
-- Both custom fonts being utilized in the game are inspired by Genshin Impact and recreated by fans for reuse. Credits go to <a href="https://twitter.com/NekoJinnyArt">@NekoJinnyArt</a> on Twitter and <a href="https://www.dafontfree.io/genshin-impact-font/">DaFont</a>.
+- All images used in the making of this game were derived from the non-official <a href="https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki" target="_blank">Genshin Impact Wiki</a> page.
+- Both custom fonts being utilized in the game are inspired by Genshin Impact and recreated by fans for reuse. Credits go to <a href="https://twitter.com/NekoJinnyArt" target="_blank">@NekoJinnyArt</a> on Twitter and <a href="https://www.dafontfree.io/genshin-impact-font/" target="_blank">DaFont</a>.
